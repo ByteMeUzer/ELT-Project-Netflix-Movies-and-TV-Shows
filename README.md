@@ -2,17 +2,10 @@
 
 An end to end **ELT (Extract, Load, Transform)** pipeline built with **Python** and **SQL Server**. The Netflix Movies and TV Shows dataset is loaded as-is into a raw layer, then cleaned, modelled and transformed inside SQL Server into a final staging layer, and finally analysed with SQL to answer 5 business questions.
 
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![T-SQL](https://img.shields.io/badge/T--SQL-0078D4?style=for-the-badge&logoColor=white)
-![ELT](https://img.shields.io/badge/ELT-Pipeline-2E8B57?style=for-the-badge&logoColor=white)
-
 ---
 
 ## Architecture
-> Add your architecture diagram image here: `![Architecture](architecture.png)` (upload the image to this repo as `architecture.png`).
-
----
+![Architecture](architecture.png)
 
 ## Pipeline Steps
 
