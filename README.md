@@ -10,17 +10,6 @@ An end to end **ELT (Extract, Load, Transform)** pipeline built with **Python** 
 ---
 
 ## Architecture
-
-
-
-```mermaid
-flowchart LR
-    A["Netflix Movies and TV Shows dataset"] -->|Download dataset| B["Python"]
-    B -->|Data load| C[("SQL Server: Raw Data Layer")]
-    C -->|Data cleaning, modelling and transformations| D[("SQL Server: Final Staging Layer")]
-    D -->|Data analysis using SQL| E["Answering 5 SQL questions"]
-```
-
 > Add your architecture diagram image here: `![Architecture](architecture.png)` (upload the image to this repo as `architecture.png`).
 
 ---
